@@ -1,0 +1,14 @@
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\Hospital_management_1.0.dll
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\Hospital_management_1.0.pdb
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\microsoft.identitymodel.dll
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\obj\Debug\Hospital_management_1.0.csproj.CoreCompileInputs.cache
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\obj\Debug\Hospital_management_1.0.csproj.CopyComplete
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\obj\Debug\Hospital_management_1.0.dll
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\obj\Debug\Hospital_management_1.0.pdb
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\preetham\source\repos\Hospital_management_1.0\Hospital_management_1.0\obj\Debug\Hospital_management_1.0.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\bin\Debug\Bill_Automation.dll
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\bin\Debug\Bill_Automation.pdb
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\bin\Debug\microsoft.identitymodel.dll
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\obj\Debug\Bill_Automation.csproj.CoreCompileInputs.cache
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\obj\Debug\Bill_Automation.csproj.CopyComplete
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\obj\Debug\Bill_Automation.dll
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\obj\Debug\Bill_Automation.pdb
+C:\Users\preetham\source\repos\Bill_Automation\Bill_Automation\obj\Debug\Bill_Automation.csprojAssemblyReference.cache

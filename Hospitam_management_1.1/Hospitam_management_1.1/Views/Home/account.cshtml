@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Hospitam_management_1._1.Models.account_entites>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(Model=>Model.reason_for_registration)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.preetham_registrationnumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Department)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Doctor)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem=>item.reason_for_registration)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.preetham_registrationnumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.ActionLink(item.Department, "Department", new { id=item.department_id})
+        </td>
+        <td>
+            @Html.ActionLink(item.Doctor,"Doctor_details",new { id=item.doctor_id})
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.account_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.account_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.account_id })
+        </td>
+    </tr>
+}
+
+</table>

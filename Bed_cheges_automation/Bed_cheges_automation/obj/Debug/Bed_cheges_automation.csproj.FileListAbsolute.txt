@@ -1,0 +1,13 @@
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\Bed_cheges_automation.dll
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\Bed_cheges_automation.pdb
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\microsoft.identitymodel.dll
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\obj\Debug\Bed_cheges_automation.csproj.CoreCompileInputs.cache
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\obj\Debug\Bed_cheges_automation.csproj.CopyComplete
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\obj\Debug\Bed_cheges_automation.dll
+C:\Users\preetham\source\repos\Bed_cheges_automation\Bed_cheges_automation\obj\Debug\Bed_cheges_automation.pdb

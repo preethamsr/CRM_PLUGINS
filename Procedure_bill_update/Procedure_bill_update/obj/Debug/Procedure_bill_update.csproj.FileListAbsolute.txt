@@ -1,0 +1,11 @@
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\bin\Debug\Procedure_bill_update.dll
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\bin\Debug\Procedure_bill_update.pdb
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\bin\Debug\microsoft.identitymodel.dll
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\obj\Debug\Procedure_bill_update.csproj.CoreCompileInputs.cache
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\obj\Debug\Procedure_bill_update.csproj.CopyComplete
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\obj\Debug\Procedure_bill_update.dll
+C:\Users\preetham\source\repos\Procedure_bill_update\Procedure_bill_update\obj\Debug\Procedure_bill_update.pdb

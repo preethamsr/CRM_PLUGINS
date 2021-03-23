@@ -1,0 +1,12 @@
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\bin\Debug\Patient_register_number.dll
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\bin\Debug\Patient_register_number.pdb
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\bin\Debug\microsoft.identitymodel.dll
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\obj\Debug\Patient_register_number.csproj.CoreCompileInputs.cache
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\obj\Debug\Patient_register_number.csproj.CopyComplete
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\obj\Debug\Patient_register_number.dll
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\obj\Debug\Patient_register_number.pdb
+C:\Users\preetham\source\repos\Patient_register_number\Patient_register_number\obj\Debug\Patient_register_number.csprojAssemblyReference.cache
