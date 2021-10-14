@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>formOnload</title>
+  <script>
+    window.onload = function () {
+      debugger;
+      formonload();
+    }
+    function formonload() {
+      var edu_MicrosoftCDSObjectModelCoreRequest = {
+        getMetadata: function () {
+          return {
+            boundParameter: null,
+            parameterTypes: {},
+            operationType: 0,
+            operationName: "edu_MicrosoftCDSObjectModelCore"
+          };
+        }
+      };
+
+      window.parent.Xrm.WebApi.online.execute(edu_MicrosoftCDSObjectModelCoreRequest).then(
+        function success(result) {
+          if (result.ok) {
+            var control = window.parent.Xrm.Page.ui.controls.get("WebResource_MicrosoftCDSObjectModelCore");
+            control.setVisible(false);
+          }
+        },
+        function (error) {
+          if(error.errorCode==2147879050)
+          {
+            alert("The license key is not present or not correct. Contact system administrator.");
+            window.parent.Xrm.Page.ui.close()
+          var control = window.parent.Xrm.Page.ui.controls.get("WebResource_MicrosoftCDSObjectModelCore");
+          control.setVisible(false);
+          }else{
+            alert(error.message)
+            window.parent.Xrm.Page.ui.close()
+          var control = window.parent.Xrm.Page.ui.controls.get("WebResource_MicrosoftCDSObjectModelCore");
+          control.setVisible(false);
+          }
+         
+     
+
+        }
+      );
+    }
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
