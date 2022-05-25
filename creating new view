@@ -1,0 +1,85 @@
+"use strict";
+
+var HAIER;
+(function (HAIER) {
+    var CLR;
+    (function (CLR) {
+               var Action;
+               (function (Action) {
+
+        
+        function FormLoad(executionContext) {//debugger;
+               var formcontext=executionContext.getFormContext();
+               var contractid=formcontext.getAttribute("alt_contractid").getValue()[0].id;
+               
+               Xrm.WebApi.online.retrieveRecord("alt_clmcontract", contractid, "?$select=alt_clmcontractid,alt_contract,alt_contractstatus,alt_contractsubphase,_alt_department_value,_alt_owner_department_value").then(
+                       function (result) {//debugger;
+                               var alt_contract = result["alt_contract"];
+                               //var alt_contract_formatted = result[alt_contract@OData.Community.Display.V1.FormattedValue];
+                       var alt_contractstatus = result["alt_contractstatus"];
+                       //var alt_contractstatus_formatted = result[alt_contractstatus@OData.Community.Display.V1.FormattedValue];
+                       var alt_contractsubphase = result["alt_contractsubphase"];
+                       //var alt_contractsubphase_formatted = result[alt_contractsubphase@OData.Community.Display.V1.FormattedValue];
+                       var alt_department_value = result["_alt_department_value"];
+                       //var alt_department_value_formatted = result[_alt_department_value@OData.Community.Display.V1.FormattedValue];
+                       //var alt_department_value_lookuplogicalname = result[_alt_department_value@Microsoft.Dynamics.CRM.lookuplogicalname];
+                               var alt_owner_department_value = result["_alt_owner_department_value"];
+                       //var _alt_owner_department_value_formatted = result[_alt_owner_department_value@OData.Community.Display.V1.FormattedValue];
+                       //var _alt_owner_department_value_lookuplogicalname = result[_alt_owner_department_value@Microsoft.Dynamics.CRM.lookuplogicalname];
+                               
+                               var layout="<grid name='resultset' object='10146' jump='alt_name' select='1' icon='1' preview='1'>" +
+                                                     "<row name='result' id='alt_actiontypeid'>" +
+                                                     "<cell name='alt_name' width='300' />" +
+                                                     "</row>" +
+                                                     "</grid>";
+                               
+                               
+                               var fetch="<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='true'>" +
+                                              "<entity name='alt_actiontype'>" +
+                                      "<attribute name='alt_name' />" +
+                                      "<attribute name='alt_actiontypeid' />" +
+                                      "<order attribute='alt_name' descending='false' />" +
+                                      "<filter type='and'>" +
+                                      "<condition attribute='alt_couldbedone' operator='ne' value='749050001' />" +
+                                      "</filter>" +
+                                      "<link-entity name='alt_actiontypephase' from='alt_actiontype' to='alt_actiontypeid' link-type='inner' alias='aa'>" +
+                                      "<filter type='and'>" +
+                                      "<filter type='or'>" +
+                                      "<condition attribute='alt_contractdepartment' operator='eq'  uitype='alt_department' value='{" + alt_department_value + "}' />" +
+                                      "<condition attribute='alt_contractdepartment' operator='null' />" +
+                                      "</filter>" +
+                                      "<filter type='or'>" +
+                                      "<condition attribute='alt_contractphase' operator='eq' value='" + alt_contract + "' />" +
+                                      "<condition attribute='alt_contractphase' operator='null' />" +
+                                      "</filter>" +
+                                      "<filter type='or'>" +
+                                      "<condition attribute='alt_contractstatus' operator='eq' value='" + alt_contractstatus + "' />" +
+                                      "<condition attribute='alt_contractstatus' operator='null' />" +
+                                      "</filter>" +
+                                      "<filter type='or'>" +
+                                      "<condition attribute='alt_contractsubphase' operator='eq' value='" + alt_contractsubphase + "' />" +
+                                      "<condition attribute='alt_contractsubphase' operator='null' />" +
+                                              "</filter>" +
+                                              "<filter type='or'>" +
+                                      "<condition attribute='alt_currentownerdepartment' operator='eq'  uitype='alt_department' value='{" + alt_owner_department_value + "}' />" +
+                                      "<condition attribute='alt_currentownerdepartment' operator='null' />" +
+                                      "</filter>" +
+                                      "</filter>" +
+                                      "</link-entity>" +
+                                              "</entity>" +
+                                              "</fetch>";
+                               
+                                      var actiontypelookupctrl=formcontext.getControl("alt_actiontype_new");
+                                      actiontypelookupctrl.addCustomView("{00000000-0000-0000-0000-000000000004}", "alt_actiontype", "Filtered view", fetch, layout, true);
+                       },
+                       function (error) {
+                               console.log(error.message);
+                       }
+               );
+        }
+        Action.FormLoad=FormLoad;
+
+})(Action=HAIER.CLR.Action || (HAIER.CLR.Action={}));
+    })(CLR = HAIER.CLR || (HAIER.CLR = {}));
+})(HAIER || (HAIER = {}));
+
