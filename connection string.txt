@@ -1,0 +1,22 @@
+connection string 
+
+  <!-- On-premises with provided user credentials -->
+    <!--<add name="CRMConnectionString" connectionString="Url=http://52.142.217.26/ElettronicaELTCRM; Domain=elt; Username=adminazure; Password=Reply.96!; AuthType=AD;"/>-->
+
+
+
+class{
+
+  private static CrmServiceClient service;
+        private static XrmServiceContext crm;
+
+
+        public static void Main(string[] args)
+        {
+
+            using (service = new CrmServiceClient(ConfigurationManager.ConnectionStrings["CRMConnectionString"].ConnectionString))
+            {
+
+                Console.WriteLine("CRM Connection with Tenant: {0}", service.ConnectedOrgUniqueName);
+
+                crm = new XrmServiceContext(service);
